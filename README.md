@@ -12,11 +12,11 @@ You may also see any lint errors in the console.
 
 # Hi eBacon developer team, welcome to Jada’s Repo 
 
-What I Have Done \
+What I Have Done 
 1. `Seeds`: All data is placed in the Seeds.js file.
 2. `salaryCalculatorService`: Implemented the logic to transfer the data using the salaryCalculatorService  component.
 3. `PayrollChart`: Created the PayrollChart  component to render all the data.
-4. Styling: Combined Bootstrap and CSS for styling.\
+4. Styling: Combined Bootstrap and CSS for styling.
    
 Future Plans if I have more time, I will:
 
