@@ -25,4 +25,5 @@ Future Plans if I have more time, I will:
 2 Write tests for my components.
 
 UI Screenshots
-![Screenshot 2024-09-09 212334](https://github.com/user-attachments/assets/7d2d712a-072c-4ae6-b398-3894f34d2f84)
+![Screenshot 2024-09-09 212334](https://github.com/user-attachments/assets/d130b7b7-2b54-4cd9-829c-0594ce3aee97)
+
