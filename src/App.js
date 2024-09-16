@@ -1,10 +1,10 @@
-import logo from "./eBacon_logo.png";
+import logo from "./adp.png";
 import "./App.css";
 import PayrollChart from "./PayrollChart";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  const userName = "Chris";
+  const userName = "Jada";
   return (
     <div className="App">
       <header className="App-header">

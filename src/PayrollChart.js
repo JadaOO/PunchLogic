@@ -1,8 +1,23 @@
-import React, { useEffect, useState } from "react";
 import "./PayrollChart.css";
 import salaryData from "./salaryCalculatorService";
+import Modal from "./modal";
+import React, { useState } from "react";
 
 function PayrollChart() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedData, setSelectedData] = useState(null);
+
+  const handleOpenModal = (item) => {
+    setSelectedData(item); // Set the data you want to display
+    setIsModalOpen(true); // Open the modal
+  };
+
+  // Function to close the modal
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setSelectedData(null); // Clear the selected data
+  };
+
   return (
     <div className="container" data-testid="container">
       <header className="card p-5">
@@ -31,7 +46,11 @@ function PayrollChart() {
                   <td>${data.doubletimeHours}</td>
                   <td>{data.totalAmount}</td>
                   <td>{data.totalBenefits}</td>
-                  <button type="button" class="btn btn-success btn-sm m-1">
+                  <button
+                    type="button"
+                    class="btn btn-success btn-sm m-1"
+                    onClick={() => handleOpenModal(data)}
+                  >
                     view details{" "}
                   </button>
                 </tr>
@@ -40,6 +59,13 @@ function PayrollChart() {
           </tbody>
         </table>
       </header>
+      {isModalOpen && (
+        <Modal
+          modalIsOpen={isModalOpen}
+          data={salaryData}
+          onClose={() => handleCloseModal}
+        />
+      )}
     </div>
   );
 }
