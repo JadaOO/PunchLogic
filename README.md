@@ -1,4 +1,4 @@
-## HR Chatbot with Chatgpt API
+## Projects that uses different AI tools: Chatgpt, AWS Lex, Google AI, 
 
 In the project directory, you can run:
 
@@ -11,7 +11,5 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 React- Typescript
-
-UI Screenshots
 
 
