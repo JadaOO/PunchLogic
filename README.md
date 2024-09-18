@@ -1,4 +1,4 @@
-## Projects that uses different AI tools: Chatgpt, AWS Lex, Google AI, 
+## Project that tries different AI tools: Chatgpt, AWS Lex, Google AI, 
 
 In the project directory, you can run:
 
